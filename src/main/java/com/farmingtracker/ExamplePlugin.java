@@ -1,4 +1,4 @@
-package com.example;
+package com.farmingtracker;
 
 import com.google.inject.Provides;
 import javax.inject.Inject;
@@ -14,7 +14,7 @@ import net.runelite.client.plugins.PluginDescriptor;
 
 @Slf4j
 @PluginDescriptor(
-	name = "Example"
+	name = "Farming Tracker"
 )
 public class ExamplePlugin extends Plugin
 {
@@ -31,8 +31,7 @@ public class ExamplePlugin extends Plugin
 	}
 
 	@Override
-	protected void shutDown() throws Exception
-	{
+	protected void shutDown() throws Exception {
 		log.info("Example stopped!");
 	}
 
